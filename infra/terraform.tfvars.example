@@ -1,0 +1,6 @@
+# Sao chép file này thành terraform.tfvars rồi điền giá trị thật.
+# bucket_name phải là DUY NHẤT trên toàn cầu — đổi thành tên riêng của bạn.
+
+aws_region   = "ap-southeast-1"
+bucket_name  = "typnthu-personal-profile-2026"
+project_name = "personal-profile"

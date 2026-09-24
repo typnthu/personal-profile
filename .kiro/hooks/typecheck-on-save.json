@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Typecheck on save",
+      "trigger": "PostFileSave",
+      "description": "Chạy TypeScript typecheck mỗi khi một file .ts/.tsx được lưu, để bắt lỗi kiểu sớm.",
+      "matcher": "\\.(ts|tsx)$",
+      "action": {
+        "type": "command",
+        "command": "npx tsc --noEmit",
+        "timeout": 120
+      }
+    }
+  ]
+}
