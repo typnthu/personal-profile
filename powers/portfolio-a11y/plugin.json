@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "portfolio-a11y",
+  "version": "1.0.0",
+  "description": "Accessibility and Tailwind conventions for building accessible React single-page personal portfolios that meet WCAG AA",
+  "author": {
+    "name": "Kiro University Challenge"
+  },
+  "keywords": ["accessibility", "a11y", "wcag", "tailwind", "react", "portfolio", "semantic-html", "frontend"]
+}
