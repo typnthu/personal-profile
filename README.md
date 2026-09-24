@@ -2,7 +2,7 @@
 
 Web profile cá nhân dạng single-page, tĩnh, xây bằng **React 18 + Vite + TypeScript (strict) + Tailwind CSS**.
 
-## Ngăn xếp công nghệ
+## Tech
 - **React 18** - function component + hooks.
 - **TypeScript** - strict mode, không dùng `any`.
 - **Vite** - build tool.
@@ -15,10 +15,10 @@ Web profile cá nhân dạng single-page, tĩnh, xây bằng **React 18 + Vite +
 ├─ README.md                  # tài liệu này
 ├─ index.html                 # HTML gốc của Vite
 ├─ src/                       # mã nguồn ứng dụng
-│  ├─ App.tsx                 # lắp ghép các section
-│  ├─ components/             # Navbar, Hero, About, Skills, Projects, Contact, Footer...
-│  ├─ data/profile.ts         # nội dung (thông tin cá nhân, kỹ năng, dự án)
-│  └─ lib/                    # validateContact + property test
+│  ├─ App.tsx
+│  ├─ components/
+│  ├─ data/profile.ts
+│  └─ lib/
 ├─ docs/
 │  └─ kiro-lessons.md         # bằng chứng áp dụng từng bài Kiro University
 ├─ infra/                     # Terraform: host trang tĩnh trên AWS (S3 + CloudFront)
@@ -28,11 +28,6 @@ Web profile cá nhân dạng single-page, tĩnh, xây bằng **React 18 + Vite +
 │     └─ README.md            # hướng dẫn chia sẻ / cài power
 └─ .kiro/                     # steering, specs, hooks, agents, settings
 ```
-
-> Repo có 3 file README, mỗi cái phục vụ mục đích riêng:
-> - `README.md` (gốc) - tổng quan dự án.
-> - `infra/README.md` - hướng dẫn deploy hạ tầng AWS bằng Terraform.
-> - `powers/portfolio-a11y/README.md` - hướng dẫn dùng/chia sẻ Kiro power.
 
 ## Chạy dự án
 ```
@@ -56,7 +51,6 @@ Chi tiết đầy đủ (kèm đường dẫn file) ở [`docs/kiro-lessons.md`]
 | 5 | Powers | power `terraform` (đã cài) |
 | 6 | MCP | `.kiro/settings/mcp.json` |
 | 7 | Custom agents | `.kiro/agents/portfolio-dev.json` |
-| Bonus 1 | Cloud sessions & config | thao tác vận hành - xem `docs/kiro-lessons.md` |
 | Bonus 2 | Package a Kiro power | `powers/portfolio-a11y/` |
 
 ## Hạ tầng (tuỳ chọn)
